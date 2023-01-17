@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-color:burlywood;
+}
+h2{
+    text-align: center;
+}
+.calculadora{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.result{
+    margin: 0;
+    height: 50px;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;
+    background-color: darkturquoise;
+    color: black;
+    border-bottom: 2px solid orangered;
+}
+table td{
+    display: inline-block;
+}
+.bt{
+    margin:3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: darkgrey;
+}
+.btn{
+    margin:3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.bt-del{
+    margin: 3px;
+    width: 106px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 22px;
+    background-color:darksalmon;
+}
+.bt-back{
+    margin:3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:darksalmon;
+}
+.bt-div{
+    margin:3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:darksalmon;
+}
+.bt-igual{
+    margin: 3px;
+    width:106px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:darksalmon;
+}
+.bt-menos{
+    margin: 3px;
+    width:50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:darksalmon;
+
+}
+.bt-mais{
+    margin: 3px;
+    width:50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:darksalmon;
+}
+.bt-vezes{
+    margin: 3px;
+    width:50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:darksalmon;
+}
+.bt-p{
+    margin: 3px;
+    width:50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:darksalmon;
+}
+
